@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    background: red;
+    width: 200px;
+    height: 100px;
+    float: left;
+    
+}
+.box2{
+    background: blue;
+    width: 400px;
+    height: 200px;
+    float: right;
+}
+.box3{
+    background: yellow;
+}
+.box31{
+    background: pink;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    overflow: auto;
+}

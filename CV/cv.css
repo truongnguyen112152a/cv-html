@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container123{
+    width: 75%;
+    margin: 0 auto;
+    height: 1200px;
+}
+
+.block1,.block2,.block3{
+    width: 30%;
+    position: relative;
+    border: none;
+}
+body{
+    background: rgb(219, 215, 207);
+}
+.content{
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    border: none;
+}
+
+.avatar{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-70%);
+}
+.info{
+    border-radius: 15px;
+    background: rgb(238, 132, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+    border: none;
+}
+.contact{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    padding: 40px;
+    border: none;
+}
+.title{
+    color: rgb(212, 138, 53);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border: none;
+
+}
+
+.combo-title{
+    font-weight: bold;
+    margin-bottom: 5px;
+    border: none;
+}
+.name{
+    color: rgb(8, 7, 15);
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    border: none;
+}
+.lname{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+.combo0,.combo1,.combo2{
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: none;
+}
+.combo-des{
+    border: none;
+    color: rgb(114, 102, 102);
+}
+.block2-content1{
+    height: 350px;
+    padding: 40px;
+}
+.block2-content2{
+    height: 500px;
+    padding: 40px;
+}
+.block2-content1 .title1{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(212, 138, 53);
+    margin-bottom: 30px;
+    border: none;
+}
+.block2-content1 .title2{
+    font-size: 16px;
+    border: none;
+    color: rgb(114, 102, 102);
+    
+}
+.title-list{
+    padding: 0 20px 0 20px;
+    text-align: justify;
+    color: rgb(114, 102, 102);
+    font-size: 16px;
+    margin-bottom: 5px;
+    border: none;
+}
+.block2-content2 .title1{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(212, 138, 53);
+    margin-bottom: 30px;
+    border: none;
+}
+.title-uni{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+    border: none;
+
+}
+.title-learn{
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+}
+.block2-content1,.block2-content2{
+    background: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: none;
+
+}
+.block3-content2{
+    height: 320px;
+    padding: 40px;
+}
+.block3-content1{
+    height: 500px;
+    padding: 40px;
+}
+.block3-content2 .title1{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(8, 5, 2);
+    margin: 10px 0 10px 0;
+    border: none;
+}
+.block3-content2 .title2{
+    font-size: 16px;
+    border: none;
+    color: rgb(114, 102, 102);
+    
+}
+.block3-content1,.block3-content2{
+    background: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: none;
+
+}
+.pro-skills{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(212, 138, 53);
+    margin-bottom: 30px;
+    border: none;
+}
+.block3-content1 .title1{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(212, 138, 53);
+    margin-bottom: 30px;
+    border: none;
+}
+.skills1,.skills2{
+    border: none;
+}
+.footer{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title1,.footer-title2{
+    width: 30%;
+    margin-top: 30px;
+}
+.footer-title1{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(212, 138, 53);
+}
+.footer-title2 .name-contact{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(8, 5, 2);
+    margin: 10px 0 10px 0;
+    border: none;
+}
+.footer-title2 .telephone{
+    font-size: 16px;
+    color: rgb(114, 102, 102);
+}

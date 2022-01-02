@@ -1,0 +1,64 @@
+p{
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  /* animation-timing-function: linear; */
+  /* animation-delay: 2s; */
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate; */
+}
+@keyframes example {
+    0%   {left:-50px;}
+    100%  { left:100%;}
+    /* 50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;} */
+  }
+.animation1{
+    width: 100px;
+    height: 100px;
+    background: url("./trump3.PNG");
+    animation: moveX 0.5s steps(6) infinite
+    /* moveY 0.5s steps(0) infinite; */
+}
+@keyframes moveX{
+    0% { background-position-x: 0px;}
+    100% { background-position-x: -600px;}
+}
+/* @keyframes moveY{
+    0% { background-position-y: 0px; }
+    25% { background-position-y: -100px ; }
+} */
+.animation2{
+    width: 100px;
+    height: 100px;
+    background: url("./trump5.PNG");
+    animation: moveX 0.5s steps(6) infinite
+    /* moveY 0.5s steps(0) infinite; */
+}
+@keyframes moveX{
+    0% { background-position-x: 0px; }
+    100% { background-position-x: -600px ; }
+}
+.animation3{
+    width: 100px;
+    height: 100px;
+    background: url("./trump4.PNG");
+    animation: moveX 0.5s steps(6) infinite
+    /* moveY 0.5s steps(0) infinite; */
+}
+@keyframes moveX{
+    0% { background-position-x: 0px; }
+    100% { background-position-x: -600px ; }
+}
+.animation4{
+    width: 100px;
+    height: 100px;
+    background: url("./trump2.PNG");
+    animation: moveX 0.5s steps(6) infinite
+    /* moveY 0.5s steps(0) infinite; */
+}
+@keyframes moveX{
+    0% { background-position-x: 0px; }
+    100% { background-position-x: -600px ; }
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block{
+    padding: 20px;
+    height: 1000px;
+    
+}
+.content1{
+    background: rgb(97, 97, 231);
+}
+.content2{
+    background: rgb(41, 41, 223);
+}
+.content3{
+    background: rgb(18, 18, 116);
+}
+.block-child1{
+    padding: 20px;
+    height: 33.33%;
+    background: rgb(250, 114, 114);
+}
+.block-child2{
+    padding: 20px;
+    height: 33.33%;
+    background: rgb(179, 7, 7);
+}
+.block-child3{
+    padding: 20px;
+    height: 33.33%;
+    background: rgb(156, 0, 0);
+}
+.title{
+    background: white;
+    height: 100%;
+}
+.title::after{
+    content: 'dfdsfsd';
+}
+/* .row{
+    display: flex;
+    justify-content: space-between;
+} */
